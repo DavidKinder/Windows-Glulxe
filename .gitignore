@@ -1,0 +1,8 @@
+Glulx.txt
+*.user
+*.chm
+.vs
+Generic
+Release
+Tests
+WindowsGlk

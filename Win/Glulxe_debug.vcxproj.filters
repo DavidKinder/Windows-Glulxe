@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Generic\accel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\debugger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\exec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\files.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\float.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\funcs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\gestalt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\glkop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\operand.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\osdepend.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\profile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\search.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\serial.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generic\vm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\buf.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\chvalid.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\dict.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\encoding.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\entities.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\error.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\globals.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\hash.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\list.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\parser.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\parserInternals.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\SAX2.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\threads.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\tree.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\uri.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\valid.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\xmlIO.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\xmlmemory.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\xmlreader.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\libxml2\xmlstring.c">
+      <Filter>Source Files\libxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="bsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="winstart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{33bddf74-53e4-4d7d-9788-74bb09fbc2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libxml2">
+      <UniqueIdentifier>{c8bbe01c-25da-4e88-8a8b-d3c15da95479}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="glulxe.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
