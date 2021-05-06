@@ -24,9 +24,9 @@ Download the latest release of the Windows Glk library from https://github.com/D
 
 libxml2 is only required if you want to build the version of Glulxe with the debugger included.
 
-Download the latest version of libxml2 from http://xmlsoft.org/sources/. Unpack the archive and copy the contents of the top-level directory to "<root>/Libraries/libxml2".
+Download the latest version of libxml2 from http://xmlsoft.org/sources/. Unpack the archive and copy the contents of the top-level directory to "\<root>/Libraries/libxml2".
 
-Copy the file "<root>/Libraries/libxml2/win32/VC10/config.h" to "<root>/Libraries/libxml2/". Open "\<root>/Libraries/libxml2/include/libxml/xmlversion.h" in a text editor, and find and replace all lines containing "#if 1" with "#if 0", except for these two:
+Copy the file "\<root>/Libraries/libxml2/win32/VC10/config.h" to "\<root>/Libraries/libxml2/". Open "\<root>/Libraries/libxml2/include/libxml/xmlversion.h" in a text editor, and find and replace all lines containing "#if 1" with "#if 0", except for these two:
 ```
 #if 1
 #define LIBXML_PUSH_ENABLED
