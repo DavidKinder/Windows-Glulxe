@@ -38,8 +38,6 @@ Copy the file "\<root>/Libraries/libxml2/win32/VC10/config.h" to "\<root>/Librar
 #end
 ```
 
-At the time of writing, the latest version of libxml2 is 2.9.10, which has a bug in it that prevents the Glulxe debugger being built. If this is the version you have, apply [this patch](https://gitlab.gnome.org/GNOME/libxml2/-/commit/106757e8c1e26ad9b8c924c7f304074b79e082c5).
-
 ### Compiling the project
 
 Start Visual Studio, open the solution "\<root>/Adv/Glulxe/Win/Glulxe.sln", then build and run the "Glulxe" project. If you also want the version of Glulxe with the debugger included, build the "Glulxe_debug" project.
