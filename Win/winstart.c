@@ -21,7 +21,7 @@
 int WINAPI WinMain(HINSTANCE instance, HINSTANCE prevInstance, LPSTR cmdLine, int show)
 {
   /* Attempt to initialise Glk */
-  if (InitGlk(0x00000704) == 0)
+  if (InitGlk(0x00000705) == 0)
     exit(1);
 
   /* Call the Windows specific initialization routine */
