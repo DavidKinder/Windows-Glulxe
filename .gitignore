@@ -4,5 +4,6 @@ Glulx.txt
 .vs
 Generic
 Release
+Release_VMDebug
 Tests
 WindowsGlk
