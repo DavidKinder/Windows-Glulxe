@@ -6,6 +6,16 @@
  <body>
 <h1>Revision History</h1>
 
+<b>Glulxe 0.6.0 (Windows Glk 1.52)</b>
+<ul>
+<li>Updated to Glulxe 0.6.0, which implements the Glulx 3.1.3 specification.
+This adds support for double precision floating point calculations, as well as the
+@hasundo and @discardundo opcodes.
+<li>If the text background colour is set by a call to garglk_set_zcolors or garglk_set_zcolors_stream
+for a text buffer or text grid window, and that window is then cleared by a call to glk_window_clear,
+that colour will become the background colour for the whole window. 
+</ul>
+
 <b>Glulxe 0.5.4 (Windows Glk 1.51)</b>
 <ul>
 <li>Font substitution, which attempts to find font characters in other fonts when the
