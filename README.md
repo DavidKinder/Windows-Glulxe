@@ -15,7 +15,7 @@ Install git. I use the version of git that is part of Cygwin, a Linux-like envir
 Open the environment that you are using git from (e.g. Cygwin), and switch to the root directory that the build environment will be created under (from here referred to as "\<root>"). Clone this and the reference Glulxe repositories with git:
 ```
 git clone https://github.com/DavidKinder/Windows-Glulxe.git Adv/Glulxe
-git clone https://github.com/erkyrath/glulxe.git Adv/Glulxe/Generic
+git clone https://github.com/DavidKinder/Glulxe.git Adv/Glulxe/Generic
 ```
 
 Download the latest release of the Windows Glk library from https://github.com/DavidKinder/Windows-Glk/releases/ and copy everything in the WindowsGlk-nnn.zip archive to "\<root>/Adv/Glulxe/WindowsGlk".
