@@ -115,7 +115,7 @@
     <ClCompile Include="bsd.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Generic\winstart.c">
+    <ClCompile Include="winstart.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

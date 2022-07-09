@@ -128,7 +128,7 @@
     <ClCompile Include="..\Generic\string.c" />
     <ClCompile Include="..\Generic\vm.c" />
     <ClCompile Include="bsd.c" />
-    <ClCompile Include="..\Generic\winstart.c" />
+    <ClCompile Include="winstart.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="glulxe.rc" />
