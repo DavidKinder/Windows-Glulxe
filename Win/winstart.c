@@ -5,7 +5,6 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 
-#define _CRT_RAND_S
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -292,56 +291,4 @@ int winglk_startup_code(const char* cmdline)
   /* Load configuration data */
   winglk_load_config_file(gamePath);
   return 1;
-}
-
-/* Allocate a chunk of memory. */
-void *glulx_malloc(glui32 len)
-{
-  return malloc(len);
-}
-
-/* Resize a chunk of memory. */
-void *glulx_realloc(void *ptr, glui32 len)
-{
-  return realloc(ptr, len);
-}
-
-/* Deallocate a chunk of memory. */
-void glulx_free(void *ptr)
-{
-  free(ptr);
-}
-
-static glui32 rng_seed = 0;
-
-/* Return a random number in the range 0 to 2^32-1. */
-glui32 glulx_random()
-{
-  glui32 value;
-
-  if (rng_seed == 0)
-  {
-    /* rand_s() calls RtlGenRandom() to generate some properly
-       random values. */
-    if (rand_s(&value) == 0)
-      return value;
-  }
-
-  /* rand() returns a value between 0 and 0x7fff, i.e. 15 bits of
-     pseudo-random values, so we use 3 calls to get enough random
-     bits to fill a 32-bit unsigned integer. */
-  glui32 v1 = rand();
-  glui32 v2 = rand();
-  glui32 v3 = rand();
-  value = (v1 << 30) ^ (v2 << 15) ^ v3;
-  return value;
-}
-
-/* Set the random-number seed; zero means use as random a source as
-   possible. */
-void glulx_setrandom(glui32 seed)
-{
-  rng_seed = seed;
-  if (seed != 0)
-    srand(seed);
 }
