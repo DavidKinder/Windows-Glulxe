@@ -1,2 +1,2 @@
-!define GLULXE_VERSION 0.6.1.153
+!define GLULXE_VERSION 0.6.1.154
 
